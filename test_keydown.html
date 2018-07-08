@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>サンプル</title>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#txt").keydown(function(){
+    var str = event.keyCode;
+    alert(str);
+  });
+});
+</script>
+</head>
+<body>
+  <input type="text" id="txt">
+</body>
+</html>
